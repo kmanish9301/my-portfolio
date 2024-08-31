@@ -1,0 +1,6 @@
+.custom-border-radius {
+  border-radius: 148px 148px 138px 146px;
+  -moz-border-radius: 148px 148px 138px 146px;
+  -webkit-border-radius: 148px 148px 138px 146px;
+  border: 0px solid #000000;
+}
