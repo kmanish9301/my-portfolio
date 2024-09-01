@@ -10,7 +10,7 @@ import Skills from "./Components/skillsBanner/Skills";
 
 const App = () => {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText relative">
+    <div className="w-full h-auto bg-bodyColor text-lightText relative mx-auto">
       <div className="parallax-stars">
         <div className="stars"></div>
       </div>

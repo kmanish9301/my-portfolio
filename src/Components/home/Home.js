@@ -24,8 +24,8 @@ const Home = () => {
         setIsVisible(entry.isIntersecting);
       },
       {
-        root: null, // Use the viewport
-        threshold: 0.1, // Trigger when 10% of the button is visible
+        root: null,
+        threshold: 0.1,
       }
     );
 
@@ -49,7 +49,7 @@ const Home = () => {
         <div className="w-full flex justify-center items-center">
           <div className="glassmorphism p-4 rounded-full">
             <img
-              className="rounded-full md:max-w-[70%] sm:max-w-[50%] xs:max-w-[60%] mx-auto custom-border-radius"
+              className="rounded-full md:max-w-[70%] sm:max-w-[50%] xs:max-w-[60%] mx-auto custom-border-radius profileImage"
               src={profileImage}
               alt="Profile"
             />
@@ -93,7 +93,7 @@ const Home = () => {
             <a
               href="/manish_resume.pdf"
               download
-              className="px-6 py-1 bg-blue-500 text-white rounded-xl bg-designColor text-light z-10"
+              className="px-6 py-1 bg-blue-500 text-white text-center rounded-xl bg-designColor text-light z-10"
             >
               Resume
             </a>

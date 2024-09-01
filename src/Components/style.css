@@ -4,3 +4,9 @@
   -webkit-border-radius: 148px 148px 138px 146px;
   border: 0px solid #000000;
 }
+
+.skillsIcons{
+  width: 3.5rem;
+  height: 3.5rem;
+  filter: drop-shadow(1px 10px 200px #fff);
+}
